@@ -1,0 +1,759 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nova Tech</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&family=Montserrat:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="favicon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="favicon/site.webmanifest" />
+    <link
+      rel="mask-icon"
+      href="favicon/safari-pinned-tab.svg"
+      color="#5bbad5"
+    />
+    <meta name="msapplication-TileColor" content="#00aba9" />
+    <meta name="msapplication-TileImage" content="favicon/mstile-144x144.png" />
+    <meta name="theme-color" content="#ffffff" />
+    <meta
+      name="description"
+      content="Elevate your digital presence with Nova Tech - Your trusted partner in bespoke website and mobile app development. Harness cutting-edge technology and innovative solutions to propel your business to new heights. Let Nova Tech redefine your online success story"
+    />
+    <!-- <link rel="stylesheet" href="css/minified.css" /> -->
+    <link rel="stylesheet" href="css/index.css" />
+    <link defer rel="stylesheet" href="css/media.css" />
+  </head>
+  <body>
+    <header>
+      <div class="navbar container-l padding-top-m">
+        <picture>
+          <source srcset="img/logo.webp" type="image/webp" />
+          <img class="logo logo-main" src="img/logo.png" alt="Nova Tech logo" />
+        </picture>
+        <ul class="nav-items padding-right-m">
+          <li><a href="#hero" class="nav-links nav-active">Home</a></li>
+          <li><a href="#offers" class="nav-links hover-zoom">Product</a></li>
+          <li>
+            <a href="#pricing" class="nav-links hover-zoom">Pricing Plans</a>
+          </li>
+          <li><a href="#contact" class="nav-links hover-zoom">Contact</a></li>
+          <!-- <li>
+            <a href="" class="nav-links inline-flex hover-zoom">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                fill="currentColor"
+                class="icon"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M18.685 19.097A9.723 9.723 0 0021.75 12c0-5.385-4.365-9.75-9.75-9.75S2.25 6.615 2.25 12a9.723 9.723 0 003.065 7.097A9.716 9.716 0 0012 21.75a9.716 9.716 0 006.685-2.653zm-12.54-1.285A7.486 7.486 0 0112 15a7.486 7.486 0 015.855 2.812A8.224 8.224 0 0112 20.25a8.224 8.224 0 01-5.855-2.438zM15.75 9a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0z"
+                  clip-rule="evenodd"
+                />
+              </svg>
+              Login
+            </a>
+          </li> -->
+          <li>
+            <button class="button btn-main">Get Started</button>
+          </li>
+        </ul>
+
+        <button class="menu" aria-label="menu button">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="nav-icon"
+            name="hammenu"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
+            />
+          </svg>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="nav-icon"
+            name="close"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M6 18L18 6M6 6l12 12"
+            />
+          </svg>
+        </button>
+      </div>
+    </header>
+    <main>
+      <section class="hero-section container-l" id="hero">
+        <div class="hero-contents">
+          <h1>
+            Idea. <br />
+            Innovate. <br />Integrate.
+          </h1>
+          <p>
+            Nova Tech provides an effective and powerful <br />
+            way to manage your projects
+          </p>
+          <button class="button btn-alt">Get Started</button>
+          <div class="hero-icons">
+            <div class="icon-text-container">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                fill="currentColor"
+                class="icon"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M12.516 2.17a.75.75 0 00-1.032 0 11.209 11.209 0 01-7.877 3.08.75.75 0 00-.722.515A12.74 12.74 0 002.25 9.75c0 5.942 4.064 10.933 9.563 12.348a.749.749 0 00.374 0c5.499-1.415 9.563-6.406 9.563-12.348 0-1.39-.223-2.73-.635-3.985a.75.75 0 00-.722-.516l-.143.001c-2.996 0-5.717-1.17-7.734-3.08zm3.094 8.016a.75.75 0 10-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 00-1.06 1.06l2.25 2.25a.75.75 0 001.14-.094l3.75-5.25z"
+                  clip-rule="evenodd"
+                />
+              </svg>
+              <p>
+                Speed & <br />
+                Security
+              </p>
+            </div>
+            <div class="icon-text-container">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                fill="currentColor"
+                class="icon"
+              >
+                <path
+                  d="M21 6.375c0 2.692-4.03 4.875-9 4.875S3 9.067 3 6.375 7.03 1.5 12 1.5s9 2.183 9 4.875z"
+                />
+                <path
+                  d="M12 12.75c2.685 0 5.19-.586 7.078-1.609a8.283 8.283 0 001.897-1.384c.016.121.025.244.025.368C21 12.817 16.97 15 12 15s-9-2.183-9-4.875c0-.124.009-.247.025-.368a8.285 8.285 0 001.897 1.384C6.809 12.164 9.315 12.75 12 12.75z"
+                />
+                <path
+                  d="M12 16.5c2.685 0 5.19-.586 7.078-1.609a8.282 8.282 0 001.897-1.384c.016.121.025.244.025.368 0 2.692-4.03 4.875-9 4.875s-9-2.183-9-4.875c0-.124.009-.247.025-.368a8.284 8.284 0 001.897 1.384C6.809 15.914 9.315 16.5 12 16.5z"
+                />
+                <path
+                  d="M12 20.25c2.685 0 5.19-.586 7.078-1.609a8.282 8.282 0 001.897-1.384c.016.121.025.244.025.368 0 2.692-4.03 4.875-9 4.875s-9-2.183-9-4.875c0-.124.009-.247.025-.368a8.284 8.284 0 001.897 1.384C6.809 19.664 9.315 20.25 12 20.25z"
+                />
+              </svg>
+              <p>
+                Flexibility & <br />
+                Scability
+              </p>
+            </div>
+            <div class="icon-text-container">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                fill="currentColor"
+                class="icon"
+              >
+                <path
+                  d="M4.913 2.658c2.075-.27 4.19-.408 6.337-.408 2.147 0 4.262.139 6.337.408 1.922.25 3.291 1.861 3.405 3.727a4.403 4.403 0 00-1.032-.211 50.89 50.89 0 00-8.42 0c-2.358.196-4.04 2.19-4.04 4.434v4.286a4.47 4.47 0 002.433 3.984L7.28 21.53A.75.75 0 016 21v-4.03a48.527 48.527 0 01-1.087-.128C2.905 16.58 1.5 14.833 1.5 12.862V6.638c0-1.97 1.405-3.718 3.413-3.979z"
+                />
+                <path
+                  d="M15.75 7.5c-1.376 0-2.739.057-4.086.169C10.124 7.797 9 9.103 9 10.609v4.285c0 1.507 1.128 2.814 2.67 2.94 1.243.102 2.5.157 3.768.165l2.782 2.781a.75.75 0 001.28-.53v-2.39l.33-.026c1.542-.125 2.67-1.433 2.67-2.94v-4.286c0-1.505-1.125-2.811-2.664-2.94A49.392 49.392 0 0015.75 7.5z"
+                />
+              </svg>
+              <p>
+                Better<br />
+                Collaboration
+              </p>
+            </div>
+          </div>
+        </div>
+        <picture>
+          <source srcset="img/hero-img.webp" type="image/webp" />
+          <img
+            class="hero-img"
+            src="img/hero-img.png"
+            alt="building mobile app"
+          />
+        </picture>
+      </section>
+      <section class="filler" id="filler">
+        <div class="custom-shape-divider-bottom-1699315946">
+          <svg
+            data-name="Layer 1"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 1200 120"
+            preserveAspectRatio="none"
+          >
+            <path
+              d="M985.66,92.83C906.67,72,823.78,31,743.84,14.19c-82.26-17.34-168.06-16.33-250.45.39-57.84,11.73-114,31.07-172,41.86A600.21,600.21,0,0,1,0,27.35V120H1200V95.8C1132.19,118.92,1055.71,111.31,985.66,92.83Z"
+              class="shape-fill"
+            ></path>
+          </svg>
+        </div>
+        <div class="filler-container">
+          <div class="container-l">
+            <div class="half-split-grid">
+              <h2 class="filler-main">
+                With the right software, <br />
+                anything is possible
+              </h2>
+              <p class="filler-secondary">
+                At Nova Tech, we stand by the conviction that with the right
+                software, anything is possible. Our mission is to transform your
+                boldest business visions into reality through tailor-made
+                website and software solutions. We pride ourselves on being
+                artisans of the digital world, crafting state-of-the-art
+                platforms that are as unique as the clients we serve. With a
+                blend of cutting-edge technology, innovative design, and a deep
+                understanding of user experience, we enable your company to
+                unlock new potentials, reach wider audiences, and achieve
+                unprecedented growth. Let us be the architects of your digital
+                success—because when the software fits perfectly, the future is
+                limitless.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="offers" id="offers">
+        <div class="container-l">
+          <h2>What we offer</h2>
+          <div></div>
+          <p class="offers-h2-description">
+            Our offers encompass a comprehensive suite of services, including
+            bespoke website design, custom software development, and robust
+            mobile application creation, all tailored to meet the unique needs
+            of your business. We provide seamless integration solutions that
+            ensure your systems communicate effectively, enhancing efficiency
+            and productivity.
+          </p>
+
+          <div class="image-offers-grid">
+            <div class="image-text-offer-box">
+              <picture>
+                <source srcset="img/artboard1.webp" type="image/webp" />
+                <img
+                  class="offer-img"
+                  src="img/artboard1.jpg"
+                  alt=""
+                  srcset=""
+                />
+              </picture>
+              <h3>
+                Workflows <br />
+                that flows
+              </h3>
+              <p>
+                Unlock the full potential of your business with our 'Workflows
+                That Work' services. From cutting-edge website development to
+                seamless mobile app creation, we specialize in crafting tailored
+                solutions that optimize your digital workflows for unparalleled
+                efficiency and success.
+              </p>
+            </div>
+            <div class="image-text-offer-box">
+              <picture>
+                <source srcset="img/artboard2.webp" type="image/webp" />
+                <img
+                  class="offer-img"
+                  src="img/artboard2.jpg"
+                  alt=""
+                  srcset=""
+                />
+              </picture>
+              <h3>
+                All-in-one <br />
+                solution
+              </h3>
+              <p>
+                Elevate your digital presence with our 'All-in-One Solution'
+                services. We specialize in comprehensive website development and
+                mobile app solutions, offering a unified approach to meet all
+                your digital needs seamlessly.
+              </p>
+            </div>
+            <div class="image-text-offer-box">
+              <picture>
+                <source srcset="img/artboard3.webp" type="image/webp" />
+                <img
+                  class="offer-img"
+                  src="img/artboard3.jpg"
+                  alt=""
+                  srcset=""
+                />
+              </picture>
+              <h3>
+                Comprehensive <br />
+                customer support
+              </h3>
+              <p>
+                Experience excellence with our 'Comprehensive Customer Support'
+                services. We go beyond website and mobile app development,
+                ensuring your journey is guided by responsive and dedicated
+                support, delivering a seamless and client-focused experience.
+              </p>
+            </div>
+            <div class="image-text-offer-box">
+              <picture>
+                <source srcset="img/artboard4.webp" type="image/webp" />
+                <img
+                  class="offer-img"
+                  src="img/artboard4.jpg"
+                  alt=""
+                  srcset=""
+                />
+              </picture>
+              <h3>
+                Smart <br />
+                automation tools
+              </h3>
+              <p>
+                Empower your digital transformation with our 'Smart Automation
+                Tools' services. From dynamic website development to innovative
+                mobile app solutions, we leverage cutting-edge automation to
+                streamline processes and enhance efficiency across your digital
+                landscape.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="partners" id="partners">
+        <div class="custom-shape-divider-bottom-1699823544">
+          <svg
+            data-name="Layer 1"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 1200 120"
+            preserveAspectRatio="none"
+          >
+            <path
+              d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z"
+              class="shape-fill"
+            ></path>
+          </svg>
+        </div>
+        <div class="partner-container">
+          <div class="container-l">
+            <h2 class="padding-top-xl">Trusted Among Industry Leaders</h2>
+            <p>
+              Choose confidence in digital innovation with our 'Trusted Among
+              Industry Leaders' services. We specialize in developing top-tier
+              websites and mobile apps, earning the trust of leading businesses
+              through our commitment to excellence and proven track record in
+              delivering exceptional solutions.
+            </p>
+            <div class="partners-grid padding-bot-xl">
+              <picture>
+                <source srcset="img/company1.webp" type="image/webp" />
+                <img src="img/company1.png" alt="" class="partner-grid-items" />
+              </picture>
+              <picture>
+                <source srcset="img/company2.webp" type="image/webp" />
+                <img src="img/company2.png" alt="" class="partner-grid-items" />
+              </picture>
+              <picture>
+                <source srcset="img/company3.webp" type="image/webp" />
+                <img src="img/company3.png" alt="" class="partner-grid-items" />
+              </picture>
+              <picture>
+                <source srcset="img/company4.webp" type="image/webp" />
+                <img src="img/company4.png" alt="" class="partner-grid-items" />
+              </picture>
+              <picture>
+                <source srcset="img/company5.webp" type="image/webp" />
+                <img src="img/company5.png" alt="" class="partner-grid-items" />
+              </picture>
+              <picture>
+                <source srcset="img/company6.webp" type="image/webp" />
+                <img src="img/company6.png" alt="" class="partner-grid-items" />
+              </picture>
+              <picture>
+                <source srcset="img/company7.webp" type="image/webp" />
+                <img src="img/company7.png" alt="" class="partner-grid-items" />
+              </picture>
+              <picture>
+                <source srcset="img/company8.webp" type="image/webp" />
+                <img src="img/company8.png" alt="" class="partner-grid-items" />
+              </picture>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="testimonials container-l" id="testimonial">
+        <h2 class="margin-bot-l">What our clients say</h2>
+        <div class="testimonial-grid">
+          <div class="testimonial-box">
+            <div class="yellow-bar">
+              <button
+                class="black-dots margin-left-m"
+                name="btn1"
+                aria-label="btn1"
+              >
+                &nbsp;
+              </button>
+              <button class="black-dots" name="btn2" aria-label="btn2">
+                &nbsp;
+              </button>
+              <button class="black-dots" name="btn3" aria-label="btn3">
+                &nbsp;
+              </button>
+            </div>
+            <div class="testimonial-text">
+              <blockquote class="testimonial">
+                "Their unparalleled expertise in website and mobile app
+                development has transformed our digital presence, making them an
+                invaluable partner we can trust to elevate our business to new
+                heights."
+              </blockquote>
+              <div class="author-company">
+                <p class="author">John Smith</p>
+                <p class="company">Golden Bay</p>
+              </div>
+            </div>
+          </div>
+          <div class="testimonial-box">
+            <div class="yellow-bar">
+              <button
+                class="black-dots margin-left-m"
+                name="btn1"
+                aria-label="btn1"
+              >
+                &nbsp;
+              </button>
+              <button class="black-dots" name="btn2" aria-label="btn2">
+                &nbsp;
+              </button>
+              <button class="black-dots" name="btn3" aria-label="btn3">
+                &nbsp;
+              </button>
+            </div>
+            <div class="testimonial-text">
+              <blockquote class="testimonial">
+                "Their commitment to excellence and attention to detail in
+                crafting our website and mobile app exceeded our expectations,
+                establishing them as the go-to IT company for innovative and
+                reliable solutions."
+              </blockquote>
+              <div class="author-company">
+                <p class="author">Elina Green</p>
+                <p class="company">Eagle distributors</p>
+              </div>
+            </div>
+          </div>
+          <div class="testimonial-box">
+            <div class="yellow-bar">
+              <button
+                class="black-dots margin-left-m"
+                name="btn1"
+                aria-label="btn1"
+              >
+                &nbsp;
+              </button>
+              <button class="black-dots" name="btn2" aria-label="btn2">
+                &nbsp;
+              </button>
+              <button class="black-dots" name="btn3" aria-label="btn3">
+                &nbsp;
+              </button>
+            </div>
+            <div class="testimonial-text">
+              <blockquote class="testimonial">
+                "Choosing their services for website and mobile app development
+                was a game-changer for our business, as their team demonstrated
+                unmatched skill, creativity, and dedication to delivering
+                outstanding results."
+              </blockquote>
+              <div class="author-company">
+                <p class="author">Laura Gomez</p>
+                <p class="company">Dare and care</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="pricing" id="pricing">
+        <div class="pricing-container container-l">
+          <div class="half-split-grid pad-bot-reset">
+            <div class="pricing-text">
+              <h2>
+                Exploring our <br />
+                pricing options
+              </h2>
+              <p>
+                From bespoke website development to cutting-edge mobile app
+                solutions, we offer transparent and flexible pricing plans
+                tailored to meet your unique digital needs
+              </p>
+              <button class="button btn-alt">See More</button>
+            </div>
+            <div class="pricing-box">
+              <div class="price-box">
+                <h3 class="plan-title best-value">Professional Package</h3>
+                <div class="plan-price">
+                  <p class="plan-currency">US</p>
+                  <p class="plan-amount padding-left-m">$ 2,499</p>
+                  <p class="plan-reccurence">Every month</p>
+                </div>
+                <div class="plan-tagline">
+                  Ideal for businesses seeking advanced features and a more
+                  robust digital experience.
+                </div>
+                <button class="button btn-alt2 custom-pricing-btn">
+                  Get Started
+                </button>
+              </div>
+
+              <div class="benefit-box benefit-primary">
+                <div
+                  class="benefit-div padding-left-m padding-right-s padding-top-m"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    fill="currentColor"
+                    class="icon-s"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12zm13.36-1.814a.75.75 0 10-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 00-1.06 1.06l2.25 2.25a.75.75 0 001.14-.094l3.75-5.25z"
+                      clip-rule="evenodd"
+                    />
+                  </svg>
+
+                  Premium Custom Website Development
+                </div>
+                <div class="benefit-div padding-left-m padding-right-s">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    fill="currentColor"
+                    class="icon-s"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12zm13.36-1.814a.75.75 0 10-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 00-1.06 1.06l2.25 2.25a.75.75 0 001.14-.094l3.75-5.25z"
+                      clip-rule="evenodd"
+                    />
+                  </svg>
+
+                  Mobile App Development (Two Platforms)
+                </div>
+                <div class="benefit-div padding-left-m padding-right-s">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    fill="currentColor"
+                    class="icon-s"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12zm13.36-1.814a.75.75 0 10-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 00-1.06 1.06l2.25 2.25a.75.75 0 001.14-.094l3.75-5.25z"
+                      clip-rule="evenodd"
+                    />
+                  </svg>
+
+                  Enhanced Customer Support
+                </div>
+                <div class="benefit-div padding-left-m padding-right-s">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    fill="currentColor"
+                    class="icon-s"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12zm13.36-1.814a.75.75 0 10-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 00-1.06 1.06l2.25 2.25a.75.75 0 001.14-.094l3.75-5.25z"
+                      clip-rule="evenodd"
+                    />
+                  </svg>
+
+                  Basic SEO Optimization
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 1440 320"
+          class="wavy-bg"
+        >
+          <path
+            fill="#F6F5F5"
+            fill-opacity="1"
+            d="M0,192L48,197.3C96,203,192,213,288,192C384,171,480,117,576,101.3C672,85,768,107,864,112C960,117,1056,107,1152,85.3C1248,64,1344,32,1392,16L1440,0L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"
+          ></path>
+        </svg>
+      </section>
+      <section class="banner margin-bot-reset padding-top-xl" id="banner">
+        <div class="banner-container container-l">
+          <h2 class="banner-title">
+            Get ready to maximize your productivity <br />
+            with our workflow solutions
+          </h2>
+          <button class="button btn-alt custom-banner-btn">Get Started</button>
+          <picture>
+            <source srcset="img/banner.webp" type="image/webp" />
+            <img src="img/banner.png" alt="" class="banner-img" />
+          </picture>
+        </div>
+      </section>
+      <section class="contact-us margin-bot-reset" id="contact">
+        <div class="contact-container container-l padding-top-xl">
+          <picture>
+            <source srcset="img/logo_black_no-bg.webp" type="image/webp" />
+            <img
+              class="logo"
+              src="img/logo_black_no-bg.png"
+              alt="Nova Tech logo"
+            />
+          </picture>
+          <div class="contact-box padding-top-l padding-bot-xl">
+            <div class="contact-grid">
+              <h3 class="contact-title">Contacts</h3>
+              <span class="address">
+                <p>
+                  322 Nicola Tesla Road <br />
+                  Houston, TX 77431
+                </p>
+              </span>
+              <span class="department1">
+                <p>
+                  Sales: <br />
+                  sales@novatech.com
+                </p>
+              </span>
+              <span class="department2">
+                <p>
+                  General inquiries: <br />
+                  (832)476-5800
+                </p>
+              </span>
+              <span class="department3">
+                <p>
+                  Customer Care: <br />
+                  info@novatech.com
+                </p>
+              </span>
+            </div>
+            <div class="contact-links">
+              <h3 class="link-title">Quick Links</h3>
+              <span class="links">
+                <a class="link" href="">Terms &amp; Conditions</a>
+                <a class="link" href="">Privacy Policy</a>
+              </span>
+            </div>
+            <div class="inquiries">
+              <h3 class="inquiry-title">Follow</h3>
+              <div class="inquiries-flex-box">
+                <p class="signup-text">
+                  Follow us to get our latest news and get updated on our
+                  product
+                </p>
+                <div class="social-icons">
+                  <a
+                    class="link"
+                    href="https://facebook.com"
+                    name="facebook"
+                    aria-label="Follow us of facebook"
+                  >
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      x="0px"
+                      y="0px"
+                      class="icon"
+                      viewBox="0 0 50 50"
+                    >
+                      <path
+                        d="M25,3C12.85,3,3,12.85,3,25c0,11.03,8.125,20.137,18.712,21.728V30.831h-5.443v-5.783h5.443v-3.848 c0-6.371,3.104-9.168,8.399-9.168c2.536,0,3.877,0.188,4.512,0.274v5.048h-3.612c-2.248,0-3.033,2.131-3.033,4.533v3.161h6.588 l-0.894,5.783h-5.694v15.944C38.716,45.318,47,36.137,47,25C47,12.85,37.15,3,25,3z"
+                      ></path>
+                    </svg>
+                  </a>
+                  <a
+                    class="link"
+                    href="https://twitter.com"
+                    name="twitter"
+                    aria-label="Follow us of twitter"
+                  >
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      x="0px"
+                      y="0px"
+                      class="icon"
+                      viewBox="0 0 50 50"
+                    >
+                      <path
+                        d="M 11 4 C 7.134 4 4 7.134 4 11 L 4 39 C 4 42.866 7.134 46 11 46 L 39 46 C 42.866 46 46 42.866 46 39 L 46 11 C 46 7.134 42.866 4 39 4 L 11 4 z M 13.085938 13 L 21.023438 13 L 26.660156 21.009766 L 33.5 13 L 36 13 L 27.789062 22.613281 L 37.914062 37 L 29.978516 37 L 23.4375 27.707031 L 15.5 37 L 13 37 L 22.308594 26.103516 L 13.085938 13 z M 16.914062 15 L 31.021484 35 L 34.085938 35 L 19.978516 15 L 16.914062 15 z"
+                      ></path>
+                    </svg>
+                  </a>
+                  <a
+                    class="link"
+                    href="https://youtube.com"
+                    name="youtube"
+                    aria-label="Follow us of youtube"
+                  >
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      x="0px"
+                      y="0px"
+                      class="icon"
+                      viewBox="0 0 50 50"
+                    >
+                      <path
+                        d="M 44.898438 14.5 C 44.5 12.300781 42.601563 10.699219 40.398438 10.199219 C 37.101563 9.5 31 9 24.398438 9 C 17.800781 9 11.601563 9.5 8.300781 10.199219 C 6.101563 10.699219 4.199219 12.199219 3.800781 14.5 C 3.398438 17 3 20.5 3 25 C 3 29.5 3.398438 33 3.898438 35.5 C 4.300781 37.699219 6.199219 39.300781 8.398438 39.800781 C 11.898438 40.5 17.898438 41 24.5 41 C 31.101563 41 37.101563 40.5 40.601563 39.800781 C 42.800781 39.300781 44.699219 37.800781 45.101563 35.5 C 45.5 33 46 29.398438 46.101563 25 C 45.898438 20.5 45.398438 17 44.898438 14.5 Z M 19 32 L 19 18 L 31.199219 25 Z"
+                      ></path>
+                    </svg>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer-container" id="footer">
+      <div class="footer-content">
+        Developed with
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 20 20"
+          fill="#e64980"
+          class="footer-icon"
+        >
+          <path
+            d="M9.653 16.915l-.005-.003-.019-.01a20.759 20.759 0 01-1.162-.682 22.045 22.045 0 01-2.582-1.9C4.045 12.733 2 10.352 2 7.5a4.5 4.5 0 018-2.828A4.5 4.5 0 0118 7.5c0 2.852-2.044 5.233-3.885 6.82a22.049 22.049 0 01-3.744 2.582l-.019.01-.005.003h-.002a.739.739 0 01-.69.001l-.002-.001z"
+          />
+        </svg>
+        by aayush lal shrestha &amp; rajanish karki
+      </div>
+    </footer>
+    <script src="js/main.js"></script>
+  </body>
+</html>
